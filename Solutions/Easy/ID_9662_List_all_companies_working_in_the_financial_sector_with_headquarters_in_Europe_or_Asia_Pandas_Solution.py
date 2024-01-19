@@ -7,3 +7,4 @@ import pandas as pd
 forbes_global_2010_2014.loc[(forbes_global_2010_2014['sector']== 'Financials') & ((forbes_global_2010_2014['continent']== 'Asia') | (forbes_global_2010_2014['continent']== 'Europe')),'company']
 
 #Another Pandas Solution using .query() method
+#WE'll also have to use the .isin() method for filtering for Europe and Asia
