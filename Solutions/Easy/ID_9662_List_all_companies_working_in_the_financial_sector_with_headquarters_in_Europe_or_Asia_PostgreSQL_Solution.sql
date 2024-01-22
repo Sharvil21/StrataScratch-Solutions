@@ -1,1 +1,2 @@
 --PostgreSQL solution
+--We have to use the WHERE clause to filter the required rows
