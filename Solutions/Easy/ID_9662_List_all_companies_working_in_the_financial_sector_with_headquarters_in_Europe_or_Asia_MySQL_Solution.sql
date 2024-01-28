@@ -1,1 +1,2 @@
 --MySQL Solution
+--Use WHERE clause to filter out the Financials sector, and either of the continents being Asia or Europe
