@@ -1,1 +1,1 @@
-#
+#Solution using .query() method
