@@ -11,3 +11,8 @@ FROM fact_events
 GROUP BY 1,2
 
 --Solution using MySQL
+SELECT
+client_id, MONTH(time_id) AS 'month', COUNT(DISTINCT user_id) AS users_num
+FROM fact_events
+GROUP BY 1,2;
+
