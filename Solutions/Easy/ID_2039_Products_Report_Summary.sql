@@ -6,3 +6,5 @@ JOIN wfm_products USING(product_id)
 WHERE EXTRACT(YEAR FROM transaction_date) = 2017
 GROUP BY 1
 ORDER BY 3 DESC;
+
+--1
