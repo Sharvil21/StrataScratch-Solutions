@@ -1,3 +1,4 @@
+--First Solution
 SELECT
 product_category, COUNT(DISTINCT transaction_id) AS transactions, SUM(sales) AS sales
 FROM wfm_transactions
