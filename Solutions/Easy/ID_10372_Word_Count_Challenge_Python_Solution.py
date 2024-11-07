@@ -1,4 +1,4 @@
-#Python Solution using .split() method
+##Python Solution using .split() method
 def count_words(sentence):
     """ 
     :type sentence: str
