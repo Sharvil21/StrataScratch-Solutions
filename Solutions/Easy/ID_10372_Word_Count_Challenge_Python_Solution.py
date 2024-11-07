@@ -7,3 +7,6 @@ def count_words(sentence):
     return len(sentence.split())
 
 #Another Python Solution
+def count_words(sentence):
+    words = sentence.split()
+    return len(words)
