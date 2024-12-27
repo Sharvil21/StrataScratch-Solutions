@@ -1,4 +1,5 @@
 #Python Solution
+#No need for special functions. A simple for loop will suffice
 def replace_null_values(lst):
     """ 
     :type lst: List[Union[int, None]]
