@@ -12,3 +12,5 @@ first_name, last_name, hire_date, termination_date
 FROM uber_employees
 WHERE id IN (SELECT id FROM cte)
 ORDER BY hire_date DESC;
+
+--Second MySQL Solution
