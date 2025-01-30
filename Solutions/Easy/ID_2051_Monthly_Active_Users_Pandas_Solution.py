@@ -18,4 +18,4 @@ df = sf_events.loc[(sf_events['record_date'].dt.month==1) & (sf_events['record_d
 
 df.groupby(['account_id'])['user_id'].nunique().to_frame().reset_index()
 
-#
+#Third pandas Solution
