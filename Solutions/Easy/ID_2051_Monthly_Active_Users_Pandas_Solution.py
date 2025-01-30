@@ -17,3 +17,5 @@ import pandas as pd
 df = sf_events.loc[(sf_events['record_date'].dt.month==1) & (sf_events['record_date'].dt.year ==2021)]
 
 df.groupby(['account_id'])['user_id'].nunique().to_frame().reset_index()
+
+#
