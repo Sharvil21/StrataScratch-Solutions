@@ -1,4 +1,4 @@
---MySQL Solution
+--MySQL Solution Using Group BY
 SELECT
 service_name,
 status_of_order,
