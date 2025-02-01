@@ -1,4 +1,5 @@
 --MySQL Solution Using Group BY
+--Write your MySQL Solution
 SELECT
 service_name,
 status_of_order,
