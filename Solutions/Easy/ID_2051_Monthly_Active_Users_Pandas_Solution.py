@@ -28,4 +28,9 @@ sf_events.query("record_date.dt.month==1 and record_date.dt.year==2021").groupby
 
 
 #Another Attempt with Pandas Solution
-sf_events.loc[(sf_events['record_date']>='2021-01-01') & (sf_events['record_date'] <='2021-01-31')].groupby('account_id').agg(user_id=('user_id','nunique')).reset_index()
+# Import your libraries
+import pandas as pd
+
+# Start writing code
+
+sf_events.query("record_date.dt.month==1 and record_date.dt.year==2021").groupby('account_id')['user_id'].nunique().to_frame().reset_index()
