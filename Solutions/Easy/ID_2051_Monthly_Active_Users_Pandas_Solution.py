@@ -25,3 +25,6 @@ import pandas as pd
 # Start writing code
 
 sf_events.query("record_date.dt.month==1 and record_date.dt.year==2021").groupby('account_id')['user_id'].nunique().to_frame().reset_index()
+
+
+#
