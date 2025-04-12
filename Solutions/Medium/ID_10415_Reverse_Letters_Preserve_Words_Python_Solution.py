@@ -2,4 +2,4 @@
 #Approach is to first split the string into a list, using .split() method
 #Then iterate through a for loop.
 #Then add the reverse of the iteration every time into an empty list (use .append() method)
-
+#Lastly, use the .join() method to construct the required string which is the output
