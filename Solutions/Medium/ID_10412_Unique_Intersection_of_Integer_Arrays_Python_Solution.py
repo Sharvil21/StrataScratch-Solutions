@@ -26,4 +26,4 @@ def find_intersection(input):
     
     return list(set(arr1) & set(arr2))
 
-#In the 2nd solution
+#In the 2nd solution, we gotta convert the arrays into sets first.
