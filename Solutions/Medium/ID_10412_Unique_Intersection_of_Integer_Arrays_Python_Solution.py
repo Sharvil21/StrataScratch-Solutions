@@ -25,3 +25,5 @@ def find_intersection(input):
     arr2 = input["arr2"]
     
     return list(set(arr1) & set(arr2))
+
+#In the 2nd solution
