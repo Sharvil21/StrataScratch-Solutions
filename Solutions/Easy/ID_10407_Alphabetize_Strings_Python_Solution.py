@@ -5,3 +5,5 @@ def sort_string(string):
     :rtype: str
     """
     return "".join(sorted(string))
+
+#In the above solution
