@@ -1,4 +1,5 @@
 #Python Solution
+#In this, I just used List Comprehension
 def sorted_squares(arr):
     """ 
     :type arr: List[int]
