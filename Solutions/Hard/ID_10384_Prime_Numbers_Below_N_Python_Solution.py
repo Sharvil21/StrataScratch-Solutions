@@ -15,3 +15,4 @@ def get_primes(n):
         if isprime(i) == True:
             output.append(i)
     return output
+
