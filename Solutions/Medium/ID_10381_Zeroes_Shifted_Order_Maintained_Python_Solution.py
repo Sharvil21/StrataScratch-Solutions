@@ -1,3 +1,3 @@
 #Python Solution
 #There is no specific requirement to change the order in place, or anything as such
-#
+#So I use list comprehension to just add the non-zero numbers first. They are in order
