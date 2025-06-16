@@ -6,3 +6,5 @@ WHERE purchase_amt > 0
 GROUP BY 1 
 ORDER BY 1)
 
+SELECT month, AVG(total_revenue) OVER(ROWS BETWEEN 2 PRECEDING AND CURRENT ROWS) AS rolling_avg
+FROM cte;
