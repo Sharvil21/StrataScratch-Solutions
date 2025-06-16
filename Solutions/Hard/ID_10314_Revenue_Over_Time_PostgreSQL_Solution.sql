@@ -1,5 +1,5 @@
 #PostgreSQL Solution
-(SELECT
+with cte AS (SELECT
 TO_CHAR(created_at,'YYYY-MM') AS MONTH, SUM(purchase_amt) AS total_revenue
 FROM amazon_purchases
 WHERE purchase_amt > 0
