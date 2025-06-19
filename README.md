@@ -10,3 +10,4 @@ This repository contains the answers for the SQL questions on Stratascratch
 |1148| [Article Views I](https://leetcode.com/problems/article-views-i/?envType=study-plan-v2&envId=top-sql-50)|[Solution](Solutions/1148_Article_Views_I.sql)
 |1683| [Invalid Tweets](https://leetcode.com/problems/invalid-tweets/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](Solutions/1683_Invalid_Tweets.sql)
 |1068| [Product Sales Analysis](https://leetcode.com/problems/invalid-tweets/description/?envType=study-plan-v2&envId=top-sql-50)|[Solution](Solutions/1683_Invalid_Tweets.sql)
+|10370| [Unique Order Values](https://platform.stratascratch.com/algorithms/10370-unique-order-values?code_type=2)|Python|[Solution](Solutions/Easy/ID_10370_Unique_Order_Values_Python_Solution.py)
