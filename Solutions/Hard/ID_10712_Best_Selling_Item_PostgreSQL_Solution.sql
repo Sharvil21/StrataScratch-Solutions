@@ -1,1 +1,2 @@
 --PostgreSQL Solution
+-- Logic is to use Dense Rank and partition by the month and then later group by the month and description. Assign RANK in descending order then in the 
