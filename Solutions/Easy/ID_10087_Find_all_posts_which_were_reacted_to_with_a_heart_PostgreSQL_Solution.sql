@@ -1,1 +1,2 @@
 --PostgreSQL Solution
+--Join the two tables first on post_id
